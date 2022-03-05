@@ -32,6 +32,7 @@ private lateinit var rvMovies: RecyclerView
         rvMovies.adapter = movieAdapter
         rvMovies.layoutManager = LinearLayoutManager(this)
         val client = AsyncHttpClient()
+
         client.get(NOW_PLAYING_URL, object: JsonHttpResponseHandler(){
             override fun onFailure(
                 statusCode: Int, headers: Headers?, response: String?, throwable: Throwable?
