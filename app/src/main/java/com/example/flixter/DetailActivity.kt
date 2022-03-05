@@ -78,7 +78,7 @@ class DetailActivity : YouTubeBaseActivity() {
                 p0: YouTubePlayer.Provider?,
                 p1: YouTubeInitializationResult?
             ) {
-                TODO("Not yet implemented")
+
             }
 
         })
